@@ -1,0 +1,92 @@
+local msg = Instance.new("Message",workspace)
+msg.Text = "Loading Roblox API assets..."
+wait(4)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Client update: 0%"
+wait(1.2)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Client update: 12%"
+wait()
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Client update: 25%"
+wait(0.2)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Client update: 39%"
+wait(1)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Client update: 56%"
+wait(0.5)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Client update: 77%"
+wait(1.1)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Client update 89%"
+wait(3)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Checking game modules"
+wait(4)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Checking availability ServerScriptService"
+wait()
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Add Service Lighting"
+wait()
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Adding a vulnerability"
+wait(0.2)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Check everything BasePart in Workspace"
+wait()
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Checking for textures"
+wait()
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Add all the necessary services"
+wait(1)
+msg:Destroy()
+
+local place = game.PlaceId
+local function getPlayerCount()
+    local playerCount = #game.Players:GetPlayers()
+    return playerCount
+end
+    local playerCount = getPlayerCount()
+local version = game.PlaceVersion
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Checking server information"
+wait(2)
+msg:Destroy()
+
+local msg = Instance.new("Message",workspace)
+msg.Text = "Place Id: " .. place .. " Count players: " .. playerCount .. " Place version: " .. version .. ""
+wait(3)
+msg:Destroy()
